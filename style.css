@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+body{
+    background-image: url("HDPIC1.jpg");
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+}
+
+.container{
+   /* align-content: center; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+}
+
+.simplecal{
+    display: flex;
+    background-color: rgb(253, 154, 237);
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 0.8;
+    box-shadow: inset 5px 5px 12px rgb(245, 86, 86),
+                      5px 5px 12px rgb(19, 15, 250);
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    align-items: center;
+    width: 250px;
+}
+input{
+    grid-column: span 4;
+    height: 40px;
+    width: 220px;
+    background-color: rgb(228, 185, 215);
+    box-shadow: inset -5px -5px 12px rgb(202, 112, 172),
+                inset 5px 5px 12px rgb(197, 100, 100);
+    border: none;
+    border-radius: 15px;
+    color: rgb(54, 17, 10);
+    font-size: 25px;
+    text-align: right;
+    margin: auto;
+    margin-top:13px ;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+button{
+    height: 45px;
+    width: 50px;
+    background-color: rgb(252, 180, 230);
+    box-shadow:  -5px -5px 12px rgb(241, 62, 182),
+    5px 5px 12px rgb(205, 250, 240);
+    border: none;
+    border-radius: 60px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 11PX;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+#ans:hover{
+    color: ivory;
+    background: rgb(10, 221, 10);
+    box-shadow:  -5px -5px 12px rgb(241, 62, 131),
+    5px 5px 12px rgb(122, 96, 238);
+}
+#ans{
+    width: 110px;
+}
+
+#clear:hover{
+    color: ivory;
+    background: rgb(247, 18, 18);
+    box-shadow:  -5px -5px 12px rgb(241, 62, 131),
+    5px 5px 12px rgb(86, 54, 230);
+}
+#yellow:hover{
+    color: rgb(180, 6, 6);
+    background: rgb(213, 247, 18);
+    box-shadow:  -5px -5px 12px rgb(253, 30, 104),
+    5px 5px 12px rgb(86, 54, 230); 
+}
+
+#blue:hover{
+    color: rgb(252, 248, 248);
+    background: rgb(34, 128, 252);
+    box-shadow:  -5px -5px 12px rgb(247, 74, 31),
+    5px 5px 12px rgb(220, 240, 105); 
+}
+#numbers:hover{
+    box-shadow:  -5px -5px 12px rgb(247, 32, 132),
+    5px 5px 12px rgb(23, 255, 34); 
+}
+
+#blue:active,#yellow:active,#ans:active,#clear:active,#numbers:active{
+    box-shadow: brown;
+    transform: translateY(2px);
+}
+
+
+
+
