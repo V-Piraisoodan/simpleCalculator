@@ -27,7 +27,6 @@ body{
     background-color: rgb(253, 154, 237);
     padding: 15px;
     border-radius: 20px;
-    opacity: 1;
     box-shadow: inset 5px 5px 12px rgb(245, 86, 86),
                       5px 5px 12px rgb(19, 15, 250);
     display: grid;
